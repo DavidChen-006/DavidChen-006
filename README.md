@@ -1,4 +1,4 @@
-# David Chen
+# hey my name is David
 
 CS student at Purdue (ML + Computer Graphics specialization, Honors College).
 Interested in AI tooling, machine learning, and research — with a side of computer graphics.
