@@ -1,4 +1,4 @@
-# Hi, I'm David
+# Hi, I'm David 👋
 
 CS student at Purdue (ML + Computer Graphics specialization, Honors College).
 Interested in AI tooling, machine learning, and research — with a side of computer graphics.
