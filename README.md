@@ -13,15 +13,6 @@
 ![CLI](https://img.shields.io/badge/-CLI-000000?style=flat-square&logo=gnu-bash&logoColor=white)
 ![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=apple&logoColor=white)
 
-## Start Here
-
-- 🎒 **[Brightspace Bar](https://github.com/DavidChen-006/Brightspace-Bar)** (52★) — never log into Brightspace again; every due date on one calendar
-- 🏭 **[smile-software-factory](https://github.com/DavidChen-006/smile-software-factory)** — a distributable, verified agent software factory: graph, loop, watcher, planning
-- 📚 **[software-design-wiki](https://github.com/DavidChen-006/software-design-wiki)** — a self-specializing LLM wiki that compiles sources at ingest and evolves its own schema
-- 🔁 **[review-loop](https://github.com/DavidChen-006/review-loop)** — post-commit AI code review using GitHub issues as the reviewer↔builder channel
-- 📊 **[table2text](https://github.com/DavidChen-006/table2text)** — hand an agent a messy CSV's structure so it writes the extraction script without opening the file
-- 🦑 **[Squid](https://github.com/DavidChen-006/Squid)** — text a purchase over iMessage, an agent buys it; HackINDY 2026 General Track winner
-
 ## Agent Infrastructure
 
 - 🏭 **[smile-software-factory](https://github.com/DavidChen-006/smile-software-factory)** — verified agent software factory (graph, loop, watcher, planning)
