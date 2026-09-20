@@ -2,8 +2,6 @@
 
 📍 Purdue | 🎓 CS student | 🚀 Agentic Builder
 
-What is the nature of engineering when implementation becomes abundant? For engineers, this is the question of our time.
-
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Swift](https://img.shields.io/badge/-Swift-F05138?style=flat-square&logo=swift&logoColor=white)
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
