@@ -43,6 +43,9 @@
 
 - 🏆 **SIQUR** — 1st Place, Startup Track @ Catapult 2026. 3D world-model pipeline pairing exterior Gaussian-splat reconstruction with interior mesh rendering, a cross-camera motion reconstruction engine, and an ILP-based optimal camera placement solver.
 - 🦑 **[Squid](https://github.com/DavidChen-006/Squid)** — General Track Winner and Best Use of Solana @ HackINDY 2026. Text a purchase request over iMessage; an agent searches, validates against your constraints, and checks out. Evidence bundles anchored to Solana via SHA-256 Merkle roots.
+- 🎬 **[Chiasm](https://devpost.com/software/chiasm)** — "Cursor for Videos" @ HackKU26. Indexes video into a semantic graph of entities, relationships, dialogue, and scene composition, then an agent (Claude for reasoning, Gemini for visual understanding) edits from natural language against a knowledge base that sharpens each pass.
+- 🌐 **[XPerience](https://devpost.com/software/xperience-q3g59v)** — @ HackIllinois 2026. An API turning visual media into personalized 3D experiences: vector embeddings and semantic search pick the key moments, then Hunyuan3D, Tripo3D, Luma, and World Labs are orchestrated behind a Flask REST API with async jobs and artifact storage.
+- 🕶️ **[AVTR](https://devpost.com/software/avtr)** — @ NexHacks. Shared agency between a human and an agent through a live avatar: Ray-Ban glasses in, Whisper for audio, a MongoDB personality model, BitHuman rendering, ElevenLabs voice. Cut end-to-end latency from 13.4s to 3.1s.
 
 ---
 
