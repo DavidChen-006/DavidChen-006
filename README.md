@@ -1,6 +1,6 @@
 # Hi, I'm David 👋
 
-📍 **Purdue** | 🎓 **CS student — ML + Computer Graphics, Honors College** | 🤖 **Agent-native tooling**
+🎓 **CS student — ML + Computer Graphics | 🤖 **Agent-native tooling**
 
 I build the scaffolding agents work inside: review loops, verification gates, wikis they maintain themselves. Plus a menu bar app so I never log into Brightspace again.
 
