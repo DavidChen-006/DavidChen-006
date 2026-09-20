@@ -2,7 +2,7 @@
 
 📍 Purdue | 🎓 CS student | 🚀 Agentic Builder
 
-I build the scaffolding agents work inside: review loops, verification gates, wikis they maintain themselves. Plus a menu bar app so I never log into Brightspace again.
+What is the nature of engineering when implementation becomes abundant? For engineers, this is the question of our time.
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Swift](https://img.shields.io/badge/-Swift-F05138?style=flat-square&logo=swift&logoColor=white)
