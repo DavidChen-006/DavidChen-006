@@ -23,14 +23,15 @@
 - 💬 **[agent-engineering-forum](https://github.com/DavidChen-006/agent-engineering-forum)** — Discourse source-of-truth + Vercel MCP gateway, with a pstack Cursor plugin
 - 📈 **[claude-code-usage-watch](https://github.com/DavidChen-006/claude-code-usage-watch)** — live localhost dashboard for token usage, cache reads/writes, and per-turn cost
 - 📐 **[flowchart-skill](https://github.com/DavidChen-006/flowchart-skill)** — derives a completeness-checked decision table first, then renders Mermaid + PNG
+- 🎨 **[flutter-design](https://github.com/DavidChen-006/flutter-design)** — Flutter design-system workbench: preview components, storyboard screens, walk the flow; built to be edited by an agent
 - 🧵 **[dotfiles](https://github.com/DavidChen-006/dotfiles)** — Nix-managed machine setup
 
 ## Knowledge & Data for Agents
 
 - 📚 **[software-design-wiki](https://github.com/DavidChen-006/software-design-wiki)** — ingest-time synthesis, filesystem-as-retrieval, human-gated schema evolution
-- 🗂️ **[zasti-wiki](https://github.com/DavidChen-006/zasti-wiki)** — the wiki scaffold pointed at a second domain
 - 📊 **[table2text](https://github.com/DavidChen-006/table2text)** — one messy CSV in, a token-budgeted brief out: schema, traps, and the pandas to load it
 - 🏋️ **[t2t-gym](https://github.com/DavidChen-006/t2t-gym)** — benchmark harness scoring schema-extraction candidates on token cost and accuracy
+- 🧠 **[relearning-llms](https://github.com/DavidChen-006/relearning-llms)** — reverse-learning practice: deconstructing MoE + sparse attention from the top down
 
 ## macOS, CLI & Native
 
@@ -42,15 +43,6 @@
 
 - 🏆 **SIQUR** — 1st Place, Startup Track @ Catapult 2026. 3D world-model pipeline pairing exterior Gaussian-splat reconstruction with interior mesh rendering, a cross-camera motion reconstruction engine, and an ILP-based optimal camera placement solver.
 - 🦑 **[Squid](https://github.com/DavidChen-006/Squid)** — General Track Winner and Best Use of Solana @ HackINDY 2026. Text a purchase request over iMessage; an agent searches, validates against your constraints, and checks out. Evidence bundles anchored to Solana via SHA-256 Merkle roots.
-
-## Research & Graphics
-
-- 🔬 **Semiconductor Digital Twin** (Birk Nanotechnology Center) — digital twin of a wafer for the cleanroom's Plasma-Therm, with an MLP estimating etch depth from machine parameters across 500+ trials.
-- 🚗 **INDOT Driving Simulator** — real-time physics-based driving sim with multi-agent traffic, built from civil-engineering intersection blueprints.
-- 🥽 **VR Lab** (under Dr. Mousas) — VR interaction system simulating autonomous avatar behaviors; Python pipelines turning Qualtrics and Unity logs into analyzable HCI datasets.
-- 🧠 **[relearning-llms](https://github.com/DavidChen-006/relearning-llms)** — reverse-learning practice: deconstructing MoE + sparse attention from the top down.
-- 🎨 **[flutter-design](https://github.com/DavidChen-006/flutter-design)** — Flutter design-system workbench: preview components, storyboard screens, walk the flow. Built to be edited by an agent.
-- 🌿 **[hemp-carbon](https://github.com/DavidChen-006/hemp-carbon)** — life-cycle assessment comparisons that keep provenance and system boundary visible.
 
 ---
 
