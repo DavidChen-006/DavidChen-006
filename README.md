@@ -13,6 +13,16 @@
 ![CLI](https://img.shields.io/badge/-CLI-000000?style=flat-square&logo=gnu-bash&logoColor=white)
 ![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=apple&logoColor=white)
 
+<img align="right" width="290" alt="contributions past year and total stars" src="https://raw.githubusercontent.com/DavidChen-006/DavidChen-006/output/stats.svg" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DavidChen-006/DavidChen-006/output/breakout-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DavidChen-006/DavidChen-006/output/breakout-contribution-graph.svg">
+  <img alt="breakout contribution graph" src="https://raw.githubusercontent.com/DavidChen-006/DavidChen-006/output/breakout-contribution-graph.svg">
+</picture>
+
+<br clear="right"/>
+
 ## Agent Infrastructure
 
 - 🏭 **[smile-software-factory](https://github.com/DavidChen-006/smile-software-factory)** — verified agent software factory (graph, loop, watcher, planning)
