@@ -54,7 +54,7 @@ count_x = icon_x + ICON + ICON_GAP
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{num} contributions past year, {stars} stars">
   <rect width="{W}" height="{H}" rx="10" fill="#0d1117"/>
-  <text x="{num_x}" y="41" font-family="{FONT}" font-size="34" font-weight="800" fill="#f2c55c">{num}</text>
+  <text x="{num_x}" y="41" font-family="{FONT}" font-size="34" font-weight="700" fill="#e6edf3">{num}</text>
   <text x="{label_x}" y="39" font-family="{FONT}" font-size="14" font-weight="500" fill="#9aa4b2">contributions past year</text>
   <line x1="{sep_x}" y1="20" x2="{sep_x}" y2="44" stroke="#30363d" stroke-width="1"/>
   <path transform="translate({icon_x}, 22) scale(0.53)" d="M16 2l4.2 8.5 9.4 1.4-6.8 6.6 1.6 9.3L16 23.4 7.6 27.8l1.6-9.3-6.8-6.6 9.4-1.4z"
