@@ -32,23 +32,34 @@ while True:
         break
     after = page["endCursor"]
 
-W, H = 420, 300
 FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
 num = str(contributions)
-# centre the star glyph + count as one unit, so 2- and 3-digit totals both sit centred
-ICON, GAP = 36, 12
-star_w = len(str(stars)) * 21
-group_x = (W - (ICON + GAP + star_w)) / 2
+stars_s = str(stars)
+
+# One horizontal row: contributions on the left, stars beside it.
+# Widths are measured from digit counts so the card stays tight as numbers grow.
+PAD, H = 18, 64
+num_w = len(num) * 22                      # 36px bold digits
+label_w = 150                              # "contributions past year" at 14px
+GAP, SEP, ICON, ICON_GAP = 12, 22, 17, 7
+stars_w = len(stars_s) * 12                # 20px bold digits
+W = PAD + num_w + GAP + label_w + SEP + ICON + ICON_GAP + stars_w + PAD
+
+x = PAD
+num_x = x
+label_x = x + num_w + GAP
+sep_x = label_x + label_w + SEP / 2
+icon_x = label_x + label_w + SEP
+count_x = icon_x + ICON + ICON_GAP
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{num} contributions past year, {stars} stars">
-  <rect width="{W}" height="{H}" rx="12" fill="#0d1117"/>
-  <text x="{W/2}" y="150" text-anchor="middle" font-family="{FONT}" font-size="104" font-weight="800" fill="#f2c55c">{num}</text>
-  <text x="{W/2}" y="192" text-anchor="middle" font-family="{FONT}" font-size="24" font-weight="500" fill="#e6edf3">contributions past year</text>
-  <g transform="translate({group_x}, 232)">
-    <path d="M18 2.5l4.6 9.3 10.3 1.5-7.45 7.26 1.76 10.25L18 25.97l-9.21 4.84 1.76-10.25L3.1 13.3l10.3-1.5z"
-          fill="none" stroke="#e6edf3" stroke-width="2.6" stroke-linejoin="round"/>
-    <text x="{ICON + GAP}" y="28" font-family="{FONT}" font-size="36" font-weight="800" fill="#e6edf3">{stars}</text>
-  </g>
+  <rect width="{W}" height="{H}" rx="10" fill="#0d1117"/>
+  <text x="{num_x}" y="41" font-family="{FONT}" font-size="34" font-weight="800" fill="#f2c55c">{num}</text>
+  <text x="{label_x}" y="39" font-family="{FONT}" font-size="14" font-weight="500" fill="#9aa4b2">contributions past year</text>
+  <line x1="{sep_x}" y1="20" x2="{sep_x}" y2="44" stroke="#30363d" stroke-width="1"/>
+  <path transform="translate({icon_x}, 22) scale(0.53)" d="M16 2l4.2 8.5 9.4 1.4-6.8 6.6 1.6 9.3L16 23.4 7.6 27.8l1.6-9.3-6.8-6.6 9.4-1.4z"
+        fill="none" stroke="#9aa4b2" stroke-width="2.8" stroke-linejoin="round"/>
+  <text x="{count_x}" y="39" font-family="{FONT}" font-size="20" font-weight="700" fill="#e6edf3">{stars_s}</text>
 </svg>'''
 
 os.makedirs("dist", exist_ok=True)
