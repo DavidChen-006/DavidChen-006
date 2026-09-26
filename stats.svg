@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="368" height="64" viewBox="0 0 368 64" role="img" aria-label="2940 contributions past year, 114 stars">
+  <rect width="368" height="64" rx="10" fill="#0d1117"/>
+  <text x="18" y="41" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="34" font-weight="700" fill="#e6edf3">2940</text>
+  <text x="118" y="39" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="500" fill="#9aa4b2">contributions past year</text>
+  <line x1="279.0" y1="20" x2="279.0" y2="44" stroke="#30363d" stroke-width="1"/>
+  <path transform="translate(290, 22) scale(0.53)" d="M16 2l4.2 8.5 9.4 1.4-6.8 6.6 1.6 9.3L16 23.4 7.6 27.8l1.6-9.3-6.8-6.6 9.4-1.4z"
+        fill="none" stroke="#9aa4b2" stroke-width="2.8" stroke-linejoin="round"/>
+  <text x="314" y="39" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#e6edf3">114</text>
+</svg>
