@@ -19,7 +19,7 @@
   <img alt="breakout contribution graph" src="https://raw.githubusercontent.com/DavidChen-006/DavidChen-006/output/breakout-contribution-graph.svg">
 </picture>
 
-<img width="356" alt="contributions past year and total stars" src="https://raw.githubusercontent.com/DavidChen-006/DavidChen-006/output/stats.svg" />
+<img alt="contributions past year and total stars" src="https://raw.githubusercontent.com/DavidChen-006/DavidChen-006/output/stats.svg" />
 
 ## Agent Infrastructure
 
